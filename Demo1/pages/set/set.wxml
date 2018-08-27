@@ -1,0 +1,20 @@
+
+<view class = 'backpicture'> 
+</view>
+<view class="container">
+
+ <image class="easy" src="http://android-artworks.25pp.com/fs08/2017/02/19/9/109_9d319f8084b88f4c918c63557dfaa8c8_con.png" bindtap="goback1">
+ </image>
+
+<view class="easyS">
+<text>残疾人模式</text>
+</view>
+ 
+ <image class="hard" src="http://android-artworks.25pp.com/fs08/2017/02/19/9/109_9d319f8084b88f4c918c63557dfaa8c8_con.png" bindtap="goback2">
+ </image>
+
+<view class="hardS">
+<text>正常人模式</text>
+</view>
+
+</view>

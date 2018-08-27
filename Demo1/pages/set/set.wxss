@@ -1,0 +1,41 @@
+.backpicture{
+  width:100%;
+  height: 100%;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535765491&di=95adbca34d235d4c83d5fbe650e57acf&imgtype=jpg&er=1&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201603%2F06%2F20160306114125_BSxkm.jpeg)no-repeat;  
+  background-size: cover;
+  /*层叠布局*/
+  z-index: 0;
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+  position: absolute;
+}
+
+.easy{
+  width: 235rpx;
+  height: 239rpx;
+  z-index: 1;  
+  border-radius: 20px;
+}
+.easyS{
+  
+  margin-top:20rpx;
+  padding :10px  20px;
+  border-radius: 10px;
+  z-index: 1;
+  color: #109D59
+}
+
+
+.hard{
+  width: 235rpx;
+  height: 239rpx;
+  z-index: 1;  
+  border-radius: 20px;
+}
+.hardS{
+  
+  margin-top:20rpx;
+  padding :10px  20px;
+  border-radius: 10px;
+  z-index: 1;
+  color: #109D59
+}

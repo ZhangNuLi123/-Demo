@@ -1,0 +1,14 @@
+<view class="score">
+    <view class="title">snake</view>
+    <view class="scoredetail">
+        <view class="scoredesc">得分</view>
+        <view class="scorenumber">{{score}}</view>
+    </view>
+    <view class="scoredetail">
+        <view class="scoredesc">历史最高</view>
+        <view class="scorenumber">{{maxscore}}</view>
+    </view>
+</view>
+<canvas style="width: 100%; height: 100%; background-color: #ccc" canvas-id="snakeCanvas" class="snake-canvas-C" bindtouchstart="touchStart" bindtouchmove="touchMove"></canvas>
+
+

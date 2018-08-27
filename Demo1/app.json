@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/try/try",
+    "pages/set/set"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#faebd7",
+    "navigationBarTitleText": "EatingSnake",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class = 'backpicture'> 
+</view>
+<view class="container">
+  
+<image class="logo" src="http://android-artworks.25pp.com/fs08/2017/02/19/9/109_9d319f8084b88f4c918c63557dfaa8c8_con.png" >
+</image>
+
+<view class="name">
+<text>贪吃蛇</text>
+</view>
+
+  <view class="btn1" bindtap='gotry'>
+   <text>开始游戏</text>
+   </view>
+  
+  <view class="btn2" bindtap='goset'>
+   <text>难度调整</text>
+   </view>
+
+</view>

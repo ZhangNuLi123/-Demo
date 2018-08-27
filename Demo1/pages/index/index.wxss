@@ -1,0 +1,66 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+ 
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.logo{
+  width: 235rpx;
+  height: 239rpx;
+  z-index: 1;  
+  border-radius: 20px;
+}
+
+
+.userinfo-nickname {
+  color: #aaa;
+   z-index: 1;
+}
+
+.usermotto {
+  margin-top: 300px;
+  z-index: 1;
+}
+
+.btn1{
+  border: 1px solid #109D59;
+  margin-top:80rpx;
+  padding :10px  20px;
+  border-radius: 10px;
+  z-index: 1;
+  color: #109D59
+}
+
+.name{
+ margin-top:60rpx;
+   z-index: 1;
+}
+.btn2{
+  border: 1px solid rgb(113, 165, 16);
+  margin-top: 50rpx;
+  padding :10px  20px;
+  border-radius: 10px;
+  z-index: 1;
+  color: rgb(113, 165, 16)
+}
+.backpicture{
+  width:100%;
+  height: 100%;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535765491&di=95adbca34d235d4c83d5fbe650e57acf&imgtype=jpg&er=1&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201603%2F06%2F20160306114125_BSxkm.jpeg)no-repeat;  /*只能用网络地址*/
+  background-size: cover;
+  /*层叠布局*/
+  z-index: 0;
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+  position: absolute;
+}
+
